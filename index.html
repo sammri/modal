@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/modal.css">
+    <link rel="stylesheet" href="./src/css/dialog.css">
+</head>
+<body>
+    <!-- 1 способ -->
+    <button class="btn-open btn" data-modal-open>Open</button>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="btn-close btn" data-modal-close>Close</button>
+            <input type="text">
+            <input type="number">
+            <input type="text">
+        </div>
+    </div>
+
+    <!-- 2 способ -->
+    <button class="btn-open btn" data-dialog-open>Open</button>
+    <dialog class="dialog" data-dialog>
+
+    </dialog>
+
+
+    <script src="./src/js/modal.js"></script>
+</body>
+</html>
